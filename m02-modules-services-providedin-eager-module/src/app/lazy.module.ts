@@ -11,7 +11,7 @@ export class LazyComponent {
 @NgModule({
   imports: [
     RouterModule.forChild([{ path: '', component: LazyComponent }]),
-    // We import here the module that provides the service!
+    // SharedModule is also imported here!
     SharedModule,
   ],
 })
